@@ -1,0 +1,198 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#06152d">
+  <meta name="description" content="PAWN FOOTBALL - Write your club's history! Available on iOS and Android.">
+
+  <title>PAWN FOOTBALL - Download</title>
+
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 25px 18px;
+      font-family: Arial, Helvetica, sans-serif;
+      color: #ffffff;
+      background:
+        radial-gradient(ellipse at top, #173d70 0%, transparent 55%),
+        linear-gradient(145deg, #030b19, #06152d 55%, #0b2345);
+    }
+
+    .container {
+      width: 100%;
+      max-width: 480px;
+      padding: 42px 25px;
+      text-align: center;
+      border: 1px solid rgba(255,255,255,0.15);
+      border-radius: 24px;
+      background: rgba(8, 26, 51, 0.88);
+      box-shadow: 0 25px 70px rgba(0,0,0,0.45);
+    }
+
+    .eyebrow {
+      color: #ff9b45;
+      font-size: 11px;
+      font-weight: bold;
+      letter-spacing: 4px;
+      text-transform: uppercase;
+      margin-bottom: 22px;
+    }
+
+    h1 {
+      font-size: clamp(38px, 10vw, 54px);
+      line-height: 0.95;
+      font-weight: 900;
+      letter-spacing: -2px;
+      text-shadow: 0 5px 20px rgba(0,0,0,0.5);
+    }
+
+    h1 span {
+      display: block;
+    }
+
+    .orange-line {
+      width: 100px;
+      height: 3px;
+      margin: 24px auto;
+      background: linear-gradient(90deg, transparent, #ff8a24, transparent);
+    }
+
+    .tagline {
+      font-size: 20px;
+      font-weight: 800;
+      margin-bottom: 13px;
+    }
+
+    .description {
+      color: #c1cee0;
+      font-size: 14px;
+      line-height: 1.7;
+      margin-bottom: 34px;
+    }
+
+    .download-buttons {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 18px;
+    }
+
+    .download-buttons a {
+      display: block;
+      width: 100%;
+      max-width: 330px;
+      transition: transform 0.2s ease;
+    }
+
+    .download-buttons a:hover {
+      transform: scale(1.035);
+    }
+
+    .download-buttons img {
+      display: block;
+      width: 100%;
+      height: auto;
+      object-fit: contain;
+    }
+
+    .footer {
+      margin-top: 35px;
+      padding-top: 22px;
+      border-top: 1px solid rgba(255,255,255,0.12);
+      color: #91a7c4;
+      font-size: 11px;
+      line-height: 1.8;
+      letter-spacing: 1px;
+    }
+
+    .footer strong {
+      color: #ffffff;
+    }
+
+    @media (max-width: 380px) {
+      .container {
+        padding: 35px 18px;
+      }
+
+      .tagline {
+        font-size: 18px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <main class="container">
+
+    <div class="eyebrow">
+      The beautiful game starts here
+    </div>
+
+    <h1>
+      <span>PAWN</span>
+      <span>FOOTBALL</span>
+    </h1>
+
+    <div class="orange-line"></div>
+
+    <p class="tagline">
+      Write your club’s history!
+    </p>
+
+    <p class="description">
+      Win competitions, climb the rankings<br>
+      and build your legend.
+    </p>
+
+    <div class="download-buttons">
+
+      <!-- APP STORE -->
+      <a
+        href="https://apps.apple.com/fr/app/pawn-football/id6804704008"
+        target="_blank"
+        rel="noopener noreferrer"
+        aria-label="Download on the App Store"
+      >
+        <img
+          src="app-store-badge.webp"
+          alt="Download on the App Store"
+        >
+      </a>
+
+      <!-- GOOGLE PLAY -->
+      <a
+        href="https://play.google.com/store/apps/details?id=com.pawnfootball.myapp"
+        target="_blank"
+        rel="noopener noreferrer"
+        aria-label="Get it on Google Play"
+      >
+        <img
+          src="google-play-badge.png"
+          alt="Get it on Google Play"
+        >
+      </a>
+
+    </div>
+
+    <footer class="footer">
+      <strong>PAWN FOOTBALL</strong><br>
+      NO PAY-TO-WIN. JUST FOOTBALL.<br>
+      AVAILABLE ON iOS & ANDROID.
+    </footer>
+
+  </main>
+
+</body>
+</html>
